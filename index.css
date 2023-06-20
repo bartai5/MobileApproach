@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+body{
+    background: #212121;
+}
+#aboutMe{
+    width: 100%;
+    display: flex;
+    background-color: #2b2b2bcb;
+}
+#aboutMe .myphoto{
+    border-radius: 9px;
+    width: 200px;
+    height: 200px;
+}
+#aboutMe .personal-desc .my-name{
+    padding-top: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    color: #ece9f0;
+    width: 200px;
+}
+#aboutMe .personal-desc .links{
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#aboutMe .personal-desc .links i{
+    border-radius: 6px;
+    border: 1px solid #f3f3f3;
+    color: #e9a60b;
+    padding: 3px;
+    font-size: 1.6em;
+    justify-content: space-evenly;
+    transition: .7s;
+}
+#aboutMe .personal-desc .links .bxl-facebook:hover{
+    background: #97979797;
+    color: rgba(255, 255, 255, 0.836);
+}
+#aboutMe .personal-desc .links .bxl-whatsapp:hover{
+    background: #97979797;
+    color: rgba(255, 255, 255, 0.836);
+}
+#aboutMe .personal-desc .links .bxl-linkedin:hover{
+    background: #97979797;
+    color: rgba(255, 255, 255, 0.836);
+}
+#aboutMe .personal-desc .links .bxl-upwork:hover{
+    background: #97979797;
+    color: rgba(255, 255, 255, 0.836);
+}
+#aboutMe .personal-desc .links .bxl-gmail:hover{
+    background: #97979797;
+    color: rgba(255, 255, 255, 0.836);
+}
+#aboutMe .personal-desc .call-me{
+    text-align: center;
+    padding: 3px;
+    border: 1px solid #fff;
+    border-radius: 7px;
+    width: 90%;
+    justify-self: center;
+    transition: .6s;
+}
+#aboutMe .personal-desc .call-me a{
+    letter-spacing: 1px;
+    color: #ece9f0;
+    text-decoration: none;
+    font-size: var(--link-size);
+    padding: 2px 45px;
+    font-weight: 500;
+}
+#aboutMe .personal-desc .call-me:hover{
+    background: #996b00d0;
+    box-shadow: 1px 1px 5px #d8d8d8;
+}
+#aboutMe .personal-desc .call-me:hover a{
+    color: #f3f3f3;
+}
+#aboutMe .description-text .title{
+    font-family: 'Times New Roman', Times, serif;
+    color: #e9a60b;
+    font-size: 2.2em;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 550;
+}
+#aboutMe .description-text .skill-slide{
+    font-size: 1.7em;
+    color: #f3f1f1;
+}
+#aboutMe .description-text .skill-slide .skill{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+    color: #e9a60b;
+    margin-right: auto;
+    margin-left: auto;
+}
+#aboutMe .description-text .text_me{
+    font-size: .95em;
+    color: #d8d8d8;
+    line-height: 1.6;
+}
+#aboutMe .description-text .text_me strong{
+    color: #e9a60b;
+}
+#aboutMe .description-text .hire-me{
+    display: flex;
+}
+#aboutMe .description-text .hire-me div{
+    display: flex;
+    justify-content: center;
+    width: 150px;
+    margin: 15px auto;
+    border-radius: 4px;
+}
+#aboutMe .description-text .hire-me a{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 2px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
+    background: #996b00d0;
+    box-shadow: 1px 1px 5px #d8d8d8;
+}
+@media only screen and (max-width: 524px){
+    #aboutMe{
+        display: grid;
+    }
+    #aboutMe .personal-desc{
+        margin: 30px auto;
+    }
+    #aboutMe .description-text{
+        padding: 30px;
+        width: 100%;
+    }
+    #aboutMe .description-text .hire-me{
+        display: block;
+        justify-content: center;
+        color: #fff;
+    }
+
+}
