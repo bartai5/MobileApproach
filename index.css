@@ -64,7 +64,7 @@ body{
     padding: 3px;
     border: 1px solid #fff;
     border-radius: 7px;
-    width: 90%;
+    width: 100%;
     justify-self: center;
     transition: .6s;
 }
@@ -98,7 +98,7 @@ body{
 #aboutMe .description-text .skill-slide .skill{
     font-family: 'Times New Roman', Times, serif;
     font-size: 1em;
-    color: #e9a60b;
+    color: #fabc6a;
     margin-right: auto;
     margin-left: auto;
 }
@@ -122,14 +122,14 @@ body{
 }
 #aboutMe .description-text .hire-me a{
     text-align: center;
-    color: #fff;
+    color: #050505;
     text-decoration: none;
     font-size: 1.2em;
     padding: 2px;
     width: 100%;
     overflow: hidden;
     border-radius: 4px;
-    background: #996b00d0;
+    background: #ffd369;
     box-shadow: 1px 1px 5px #d8d8d8;
 }
 @media only screen and (max-width: 524px){
@@ -148,5 +148,55 @@ body{
         justify-content: center;
         color: #fff;
     }
-
+}
+@media only screen and (min-width: 525px) and (max-width: 767px){
+    #aboutMe .personal-desc{
+        display: grid;
+        margin-left: 20px;
+        justify-content: center;
+        align-self: center;
+        width: 40%;
+        height: 400px;
+    }
+    #aboutMe .description-text{
+        width: 55%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1023px){
+    #aboutMe .personal-desc{
+        display: grid;
+        margin-right: 30px;
+        justify-content: flex-end;
+        align-self: center;
+        width: 40%;
+        height: 330px;
+    }
+    #aboutMe .description-text{
+        width: 55%;
+    }
+}
+@media only screen and (min-width:1024px){
+    #aboutMe .personal-desc{
+        display: grid;
+        margin-right: 30px;
+        justify-content: flex-end;
+        align-self: center;
+        width: 40%;
+        height: 330px;
+    }
+    #aboutMe .description-text{
+        width: 55%;
+    }
+    #aboutMe .description-text .title{
+        padding-top: 30px;
+    }
+    #aboutMe .description-text .skill-slide{
+        padding-top: 15px;
+    }
+    #aboutMe .description-text .hire-me{
+        width: 70%;
+    }
+    #aboutMe .description-text .text_me{
+        font-size: 1.13em;
+    }
 }
