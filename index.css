@@ -77,7 +77,7 @@ body{
     font-weight: 500;
 }
 #aboutMe .personal-desc .call-me:hover{
-    background: #996b00d0;
+    background: #0e4bf1;
     box-shadow: 1px 1px 5px #d8d8d8;
 }
 #aboutMe .personal-desc .call-me:hover a{
@@ -122,15 +122,22 @@ body{
 }
 #aboutMe .description-text .hire-me a{
     text-align: center;
-    color: #050505;
+    color: #fff;
+    border-radius: 6px;
     text-decoration: none;
     font-size: 1.2em;
-    padding: 2px;
+    padding: 3px;
     width: 100%;
     overflow: hidden;
-    border-radius: 4px;
-    background: #ffd369;
-    box-shadow: 1px 1px 5px #d8d8d8;
+    border: none;
+    outline: none;
+    background: #396bf7;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#aboutMe .description-text .hire-me a:hover{
+    background: #0e4bf1;
+    box-shadow: 1px 1px 5px #6d6d6dc7;
 }
 @media only screen and (max-width: 524px){
     #aboutMe{
